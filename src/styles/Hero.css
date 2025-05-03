@@ -1,0 +1,29 @@
+.breadcrums {
+    color: var(--light-gray);
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.breadcrums__category {
+    color: var(--black);
+}
+
+.hero {
+    padding: 1rem;
+    padding-top: 0;
+    text-align: center;
+}
+
+.hero__description {
+    padding-top: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .breadcrums {
+        display: none;
+    }
+
+    .hero {
+        padding-top: 2rem;
+    }
+}
