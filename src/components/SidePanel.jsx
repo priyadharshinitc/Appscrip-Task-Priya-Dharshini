@@ -22,8 +22,6 @@ const SidePanel = () => {
     }));
   }
 
-  // [filterName]: !prev[filterName]
-
   return (
     <>
       <div className='sidePanel'>        
@@ -45,8 +43,8 @@ const SidePanel = () => {
         <hr className='sidePanel__dividers' />
 
         <div>
-          <div className='sidePanel__options sidePanel__headers' onClick={() => handleToggle("occassion")}>
-            <span>OCCASSION</span>
+          <div className='sidePanel__options sidePanel__headers' onClick={() => handleToggle("occasion")}>
+            <span>OCCASION</span>
             {isOpen.occasion ? <MdKeyboardArrowDown id="sidePanel__downArrow" /> : <MdKeyboardArrowRight id="sidePanel__rightArrow" />}
           </div>
           
