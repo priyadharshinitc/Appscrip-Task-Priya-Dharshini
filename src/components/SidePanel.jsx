@@ -37,7 +37,23 @@ const SidePanel = () => {
             {isOpen.idealFor ? <MdKeyboardArrowDown className="sidePanel__downArrow" /> : <MdKeyboardArrowRight className="sidePanel__rightArrow" />}
           </div>
           
-          {isOpen.idealFor && <p>All</p>}
+          {isOpen.idealFor && (
+            <div>
+              <p>All</p>
+              <div className='sidePanel__extraFilters'>
+                <button className='unselectBtn'>Unselect All</button>
+                <label htmlFor="men">
+                  <input type="checkbox" id="men" /> Men
+                </label>
+                <label htmlFor="women">
+                  <input type="checkbox" id="women" /> Women
+                </label>
+                <label htmlFor="babyAndKids">
+                  <input type="checkbox" id="babyAndKids" /> Baby & Kids
+                </label>
+              </div>
+            </div>
+          )}
         </div>
 
         <hr className='sidePanel__dividers' />
@@ -48,7 +64,26 @@ const SidePanel = () => {
             {isOpen.occasion ? <MdKeyboardArrowDown className="sidePanel__downArrow" /> : <MdKeyboardArrowRight className="sidePanel__rightArrow" />}
           </div>
           
-          {isOpen.occasion && <p>All</p>}
+          {isOpen.occasion && (
+            <div>
+              <p>All</p>
+              <div className='sidePanel__extraFilters'>
+                <button className='unselectBtn'>Unselect All</button>
+                <label htmlFor="casual">
+                  <input type="checkbox" id="casual" /> Casual
+                </label>
+                <label htmlFor="formal">
+                  <input type="checkbox" id="formal" /> Formal
+                </label>
+                <label htmlFor="party">
+                  <input type="checkbox" id="party" /> Party
+                </label>
+                <label htmlFor="wedding">
+                  <input type="checkbox" id="wedding" /> Wedding
+                </label>
+              </div>
+            </div>
+          )}
         </div>
 
         <hr className='sidePanel__dividers' />
@@ -59,7 +94,23 @@ const SidePanel = () => {
             {isOpen.work ? <MdKeyboardArrowDown className="sidePanel__downArrow" /> : <MdKeyboardArrowRight className="sidePanel__rightArrow" />}
           </div>
           
-          {isOpen.work && <p>All</p>}
+          {isOpen.work && (
+            <div>
+              <p>All</p>
+              <div className='sidePanel__extraFilters'>
+                <button className='unselectBtn'>Unselect All</button>
+                <label htmlFor="office">
+                  <input type="checkbox" id="office" /> Office
+                </label>
+                <label htmlFor="wfh">
+                  <input type="checkbox" id="wfh" /> Work from Home
+                </label>
+                <label htmlFor="industrial">
+                  <input type="checkbox" id="industrial" /> Industrial
+                </label>
+              </div>
+            </div>
+          )}
         </div>
 
         <hr className='sidePanel__dividers' />
@@ -70,7 +121,26 @@ const SidePanel = () => {
             {isOpen.fabric ? <MdKeyboardArrowDown className="sidePanel__downArrow" /> : <MdKeyboardArrowRight className="sidePanel__rightArrow" />}
           </div>
           
-          {isOpen.fabric && <p>All</p>}
+          {isOpen.fabric && (
+            <div>
+              <p>All</p>
+              <div className='sidePanel__extraFilters'>
+                <button className='unselectBtn'>Unselect All</button>
+                <label htmlFor="cotton">
+                  <input type="checkbox" id="cotton" /> Cotton
+                </label>
+                <label htmlFor="polyster">
+                  <input type="checkbox" id="polyster" /> Polyster
+                </label>
+                <label htmlFor="linen">
+                  <input type="checkbox" id="linen" /> Linen
+                </label>
+                <label htmlFor="denim">
+                  <input type="checkbox" id="denim" /> Denim
+                </label>
+              </div>
+            </div>
+          )}
         </div>
 
         <hr className='sidePanel__dividers' />
@@ -81,7 +151,20 @@ const SidePanel = () => {
             {isOpen.segment ? <MdKeyboardArrowDown className="sidePanel__downArrow" /> : <MdKeyboardArrowRight className="sidePanel__rightArrow" />}
           </div>
           
-          {isOpen.segment && <p>All</p>}
+          {isOpen.segment && (
+            <div>
+              <p>All</p>
+              <div className='sidePanel__extraFilters'>
+                <button className='unselectBtn'>Unselect All</button>
+                <label htmlFor="premium">
+                  <input type="checkbox" id="premium" /> Premium
+                </label>
+                <label htmlFor="budget">
+                  <input type="checkbox" id="budget" /> Budget
+                </label>
+              </div>
+            </div>
+          )}
         </div>
 
         <hr className='sidePanel__dividers' />
@@ -92,7 +175,26 @@ const SidePanel = () => {
             {isOpen.suitableFor ? <MdKeyboardArrowDown className="sidePanel__downArrow" /> : <MdKeyboardArrowRight className="sidePanel__rightArrow" />}
           </div>
           
-          {isOpen.suitableFor && <p>All</p>}
+          {isOpen.suitableFor && (
+            <div>
+              <p>All</p>
+              <div className='sidePanel__extraFilters'>
+                <button className='unselectBtn'>Unselect All</button>
+                <label htmlFor="summer">
+                  <input type="checkbox" id="summer" /> Summer
+                </label>
+                <label htmlFor="winter">
+                  <input type="checkbox" id="winter" /> Winter
+                </label>
+                <label htmlFor="rainy">
+                  <input type="checkbox" id="rainy" /> Rainy Season
+                </label>
+                <label htmlFor="allSeasons">
+                  <input type="checkbox" id="allSeasons" /> All Seasons
+                </label>
+              </div>
+            </div>
+          )}
         </div>
 
         <hr className='sidePanel__dividers' />
@@ -103,7 +205,23 @@ const SidePanel = () => {
             {isOpen.rawMaterials ? <MdKeyboardArrowDown className="sidePanel__downArrow" /> : <MdKeyboardArrowRight className="sidePanel__rightArrow" />}
           </div>
           
-          {isOpen.rawMaterials && <p>All</p>}
+          {isOpen.rawMaterials && (
+            <div>
+              <p>All</p>
+              <div className='sidePanel__extraFilters'>
+                <button className='unselectBtn'>Unselect All</button>
+                <label htmlFor="organicCotton">
+                  <input type="checkbox" id="organicCotton" /> Organic Cotton
+                </label>
+                <label htmlFor="recycledPolyster">
+                  <input type="checkbox" id="recycledPolyster" /> Recycled Polyster
+                </label>
+                <label htmlFor="hemp">
+                  <input type="checkbox" id="hemp" /> Hemp
+                </label>
+              </div>
+            </div>
+          )}
         </div>
 
         <hr className='sidePanel__dividers' />
@@ -114,7 +232,23 @@ const SidePanel = () => {
             {isOpen.pattern ? <MdKeyboardArrowDown className="sidePanel__downArrow" /> : <MdKeyboardArrowRight className="sidePanel__rightArrow" />}
           </div>
           
-          {isOpen.pattern && <p>All</p>}
+          {isOpen.pattern && (
+            <div>
+              <p>All</p>
+              <div className='sidePanel__extraFilters'>
+                <button className='unselectBtn'>Unselect All</button>
+                <label htmlFor="solid">
+                  <input type="checkbox" id="solid" /> Solid
+                </label>
+                <label htmlFor="striped">
+                  <input type="checkbox" id="striped" /> Striped
+                </label>
+                <label htmlFor="checked">
+                  <input type="checkbox" id="checked" /> Checked
+                </label>
+              </div>
+            </div>
+          )}
         </div>
 
         <hr className='sidePanel__dividers' />

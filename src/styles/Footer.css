@@ -32,6 +32,14 @@
     background: var(--black);
     color: gray;
     border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.footer__newsLetter button:hover {
+    background: var(--white);
+    color: var(--black);
+    font-weight: bold;
 }
 
 .footer__contact, 
@@ -49,6 +57,10 @@
     color: var(--white);
     text-decoration: none;
     cursor: pointer;
+}
+
+.footer a:hover {
+    color: lightgreen;
 }
 
 .footer__currency__section {
@@ -235,7 +247,7 @@
 
     .footer__newsLetter {
         grid-row: 2;
-        grid-column: 1;
+        grid-column: 1 / span 2;
         margin-top: 2rem;
         border-bottom: 0px;
     }

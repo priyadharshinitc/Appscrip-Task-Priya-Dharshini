@@ -26,4 +26,8 @@
     .hero {
         padding-top: 2rem;
     }
+
+    .hero__title {
+        font-size: var(--32px);
+    }
 }

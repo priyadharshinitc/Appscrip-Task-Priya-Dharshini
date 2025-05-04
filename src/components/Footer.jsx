@@ -86,26 +86,6 @@ const Footer = () => {
         }
       </div>
 
-      {/* <div className="footer__linksTabletView">
-        {
-          accordionData.map((item, i) => {
-            return (
-              <div key={i}>
-                <h3>{item.title}</h3>
-                  <ul>
-                    {item.content.map((linkContent, index) => {
-                      return <li key={index}>
-                        <a href="#">{linkContent}</a>
-                      </li>
-                    })}
-                    
-                  </ul>
-              </div>
-            )
-          })
-        }
-      </div> */}
-
       <div className="footer__eliteMartLinks footer__links">
         <h3 className='footer__links-title'>ELITE MART</h3>
         <ul>

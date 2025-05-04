@@ -8,28 +8,15 @@
   --black: #1D232C;
   --white: #FFF;
   --light-gray: #898d94;
-  --light-blue: #48CFCB;
-  --dark-cyan: #229799;    
-  --overlayBlack: rgba(0, 0, 0, 0.6);
-  --1px: 0.0625rem;
   --2px: 0.125rem;
   --5px: 0.3125rem;
   --10px: 0.625rem;
-  --13px: 0.8125rem;
   --16px: 1rem;
   --20px: 1.25rem;
   --24px: 1.5rem;
-  --28px: 1.75rem;
   --30px: 1.875rem;
   --32px: 2rem;
-  --36px: 2.25rem;
-  --40px: 2.5rem;
   --48px: 3rem;
-  --150px: 9.375rem;
-  --200px: 12.5rem;
-  --250px: 15.625rem;
-  --300px: 18.75rem;
-  --450px: 28.125rem;
 }
 
 body {
