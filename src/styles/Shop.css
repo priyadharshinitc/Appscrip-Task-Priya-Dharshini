@@ -15,10 +15,6 @@
     justify-content: center;
 }
 
-.filterSection__recommend option {
-    padding: 0.5rem;
-}
-
 .filterSection__divider {
     width: 2px;
     height: var(--20px);
@@ -35,11 +31,6 @@
     cursor: pointer;
 }
 
-.showMobileFilter {
-    width: auto;
-    position: relative;
-}
-
 .filterSection__tabletView {
     display: none;
 }
@@ -48,13 +39,6 @@
     width: 30%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-
-.filterSection__hideBtn, 
-.filterSection__showBtn {
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 

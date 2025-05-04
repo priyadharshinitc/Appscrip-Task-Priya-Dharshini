@@ -63,6 +63,11 @@
     display: none;
 }
 
+.navBar__links a {
+    text-decoration: none;
+    color: var(--black);
+}
+
 .navBar__links li {
     font-weight: bold;
 }
@@ -121,6 +126,10 @@
 }
 
 @media screen and (min-width: 768px) {
+    .offerBanner span {
+        font-size: var(--20px);
+    }
+
     .offerBanner__closeBtn {
         margin-left: 1rem;
     }

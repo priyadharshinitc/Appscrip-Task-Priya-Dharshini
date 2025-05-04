@@ -58,11 +58,21 @@ const Navbar = () => {
 
       <section>
         <ul className="navBar__links">
-          <li>SHOP</li>
-          <li>SKILLS</li>
-          <li>STORIES</li>
-          <li>ABOUT</li>
-          <li>CONTACT US</li>
+          <li>
+            <a href="#">SHOP</a>
+          </li>
+          <li>
+            <a href="#">SKILLS</a>
+          </li>
+          <li>
+            <a href="#">STORIES</a>
+          </li>
+          <li>
+            <a href="#">ABOUT</a>
+          </li>
+          <li>
+            <a href="#">CONTACT US</a>
+          </li>
         </ul>
       </section>
 
@@ -76,13 +86,13 @@ const Navbar = () => {
               <a href="#">SKILLS</a>
             </li>
             <li>
-            <a href="#">STORIES</a>
+              <a href="#">STORIES</a>
             </li>
             <li>
-            <a href="#">ABOUT</a>
+              <a href="#">ABOUT</a>
             </li>
             <li>
-            <a href="#">CONTACT US</a>
+              <a href="#">CONTACT US</a>
             </li>
           </ul>
           <button

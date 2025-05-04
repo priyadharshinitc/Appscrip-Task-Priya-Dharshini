@@ -208,6 +208,10 @@
         margin-bottom: var(--10px);
     }
 
+    .footer__linksIcon {
+        font-size: var(--24px);
+    }
+
     .footer__eliteMartLinks {
         grid-row: 3;
         grid-column: 1;

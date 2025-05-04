@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Shop.css";
 
-import { IoIosArrowDown } from "react-icons/io";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
@@ -21,7 +20,9 @@ const Shop = () => {
         <button className="filterSection__btn filterSection__filter" onClick={displaySidePanel}>
           FILTER
         </button>
+
         <div className="filterSection__divider"></div>
+
         <select  className="filterSection__btn filterSection__recommend">
             <option value="recommended">RECOMMENDED</option>
             <option value="newest first">NEWEST FIRST</option>
@@ -30,10 +31,6 @@ const Shop = () => {
             <option value="price: low to high">PRICE: LOW TO HIGH</option>
           </select>
       </div>
-
-      {/* <aside className="showMobileFilter">
-        {isOpen && <SidePanel />}
-      </aside> */}
 
       <div className="filterSection__tabletView">
         <div className="filterSection__leftPanel">
