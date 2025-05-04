@@ -34,7 +34,7 @@ const SidePanel = () => {
         <div>
           <div className='sidePanel__options sidePanel__headers' onClick={() => handleToggle("idealFor")}>
             <span>IDEAL FOR</span>
-            {isOpen.idealFor ? <MdKeyboardArrowDown id="sidePanel__downArrow" /> : <MdKeyboardArrowRight id="sidePanel__rightArrow" />}
+            {isOpen.idealFor ? <MdKeyboardArrowDown className="sidePanel__downArrow" /> : <MdKeyboardArrowRight className="sidePanel__rightArrow" />}
           </div>
           
           {isOpen.idealFor && <p>All</p>}
@@ -45,7 +45,7 @@ const SidePanel = () => {
         <div>
           <div className='sidePanel__options sidePanel__headers' onClick={() => handleToggle("occasion")}>
             <span>OCCASION</span>
-            {isOpen.occasion ? <MdKeyboardArrowDown id="sidePanel__downArrow" /> : <MdKeyboardArrowRight id="sidePanel__rightArrow" />}
+            {isOpen.occasion ? <MdKeyboardArrowDown className="sidePanel__downArrow" /> : <MdKeyboardArrowRight className="sidePanel__rightArrow" />}
           </div>
           
           {isOpen.occasion && <p>All</p>}
@@ -56,7 +56,7 @@ const SidePanel = () => {
         <div>
           <div className='sidePanel__options sidePanel__headers' onClick={() => handleToggle("work")}>
             <span>WORK</span>
-            {isOpen.work ? <MdKeyboardArrowDown id="sidePanel__downArrow" /> : <MdKeyboardArrowRight id="sidePanel__rightArrow" />}
+            {isOpen.work ? <MdKeyboardArrowDown className="sidePanel__downArrow" /> : <MdKeyboardArrowRight className="sidePanel__rightArrow" />}
           </div>
           
           {isOpen.work && <p>All</p>}
@@ -67,7 +67,7 @@ const SidePanel = () => {
         <div>
           <div className='sidePanel__options sidePanel__headers' onClick={() => handleToggle("fabric")}>
             <span>FABRIC</span>
-            {isOpen.fabric ? <MdKeyboardArrowDown id="sidePanel__downArrow" /> : <MdKeyboardArrowRight id="sidePanel__rightArrow" />}
+            {isOpen.fabric ? <MdKeyboardArrowDown className="sidePanel__downArrow" /> : <MdKeyboardArrowRight className="sidePanel__rightArrow" />}
           </div>
           
           {isOpen.fabric && <p>All</p>}
@@ -78,7 +78,7 @@ const SidePanel = () => {
         <div>
           <div className='sidePanel__options sidePanel__headers' onClick={() => handleToggle("segment")}>
             <span>SEGMENT</span>
-            {isOpen.segment ? <MdKeyboardArrowDown id="sidePanel__downArrow" /> : <MdKeyboardArrowRight id="sidePanel__rightArrow" />}
+            {isOpen.segment ? <MdKeyboardArrowDown className="sidePanel__downArrow" /> : <MdKeyboardArrowRight className="sidePanel__rightArrow" />}
           </div>
           
           {isOpen.segment && <p>All</p>}
@@ -89,7 +89,7 @@ const SidePanel = () => {
         <div>
           <div className='sidePanel__options sidePanel__headers' onClick={() => handleToggle("suitableFor")}>
             <span>SUITABLE FOR</span>
-            {isOpen.suitableFor ? <MdKeyboardArrowDown id="sidePanel__downArrow" /> : <MdKeyboardArrowRight id="sidePanel__rightArrow" />}
+            {isOpen.suitableFor ? <MdKeyboardArrowDown className="sidePanel__downArrow" /> : <MdKeyboardArrowRight className="sidePanel__rightArrow" />}
           </div>
           
           {isOpen.suitableFor && <p>All</p>}
@@ -100,7 +100,7 @@ const SidePanel = () => {
         <div>
           <div className='sidePanel__options sidePanel__headers' onClick={() => handleToggle("rawMaterials")}>
             <span>RAW MATERIALS</span>
-            {isOpen.rawMaterials ? <MdKeyboardArrowDown id="sidePanel__downArrow" /> : <MdKeyboardArrowRight id="sidePanel__rightArrow" />}
+            {isOpen.rawMaterials ? <MdKeyboardArrowDown className="sidePanel__downArrow" /> : <MdKeyboardArrowRight className="sidePanel__rightArrow" />}
           </div>
           
           {isOpen.rawMaterials && <p>All</p>}
@@ -111,7 +111,7 @@ const SidePanel = () => {
         <div>
           <div className='sidePanel__options sidePanel__headers' onClick={() => handleToggle("pattern")}>
             <span>PATTERN</span>
-            {isOpen.pattern ? <MdKeyboardArrowDown id="sidePanel__downArrow" /> : <MdKeyboardArrowRight id="sidePanel__rightArrow" />}
+            {isOpen.pattern ? <MdKeyboardArrowDown className="sidePanel__downArrow" /> : <MdKeyboardArrowRight className="sidePanel__rightArrow" />}
           </div>
           
           {isOpen.pattern && <p>All</p>}

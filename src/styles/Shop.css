@@ -69,6 +69,7 @@
 .mainContainer {
     display: flex;
     position: relative;
+    min-height: 6400px;
 }
 
 @media screen and (min-width: 768px) {
@@ -76,8 +77,8 @@
         display: none;
     }
 
-    .showMobileFilter {
-        display: none;
+    .mainContainer {
+        min-height: 3200px;
     }
 
     .filterSection__tabletView {
@@ -97,5 +98,15 @@
 @media screen and (min-width: 1024px) {
     .filterSection__leftPanel {
         width: 20%;
+    }
+
+    .mainContainer {
+        min-height: 2250px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .mainContainer {
+        min-height: 1650px;
     }
 }

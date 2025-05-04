@@ -22,7 +22,7 @@ const Shop = () => {
           FILTER
         </button>
         <div className="filterSection__divider"></div>
-        <select name="filters" id="filters" className="filterSection__btn filterSection__recommend">
+        <select  className="filterSection__btn filterSection__recommend">
             <option value="recommended">RECOMMENDED</option>
             <option value="newest first">NEWEST FIRST</option>
             <option value="popular">POPULAR</option>
@@ -47,7 +47,7 @@ const Shop = () => {
           </button>
         </div>
 
-        <select name="filters" id="filters" className="filterSection__btn filterSection__recommend">
+        <select className="filterSection__btn filterSection__recommend">
           <option value="recommended">RECOMMENDED</option>
           <option value="newest first">NEWEST FIRST</option>
           <option value="popular">POPULAR</option>
